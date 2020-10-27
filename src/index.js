@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/home';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
@@ -10,7 +10,7 @@ import Cadastro from './pages/Cadastro';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cadastro/>
+    <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );
